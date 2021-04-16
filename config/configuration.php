@@ -34,10 +34,12 @@ define('DEFAULT_AUTH', '');
 
 define('DEFAULT_METHOD', 'Index');
 
-define('URL', 'http://localhost/app/apps/');
+// define('URL', 'http://localhost/app/apps/');
+
+define('URL', 'https://jeslove.github.io/app/apps/');
 
 
-define('NOTFOUND', 'http://localhost/404.asp');
+define('NOTFOUND', 'https://jeslove.github.io/404.asp');
 
 define('KEY', 'nuue89937793874uh9e7y493774');
 
