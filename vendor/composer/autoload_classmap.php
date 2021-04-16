@@ -13,7 +13,7 @@ return array(
     'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
-    'apps\\models\\Projects\\Homes_Model' => $baseDir . '/apps/models/Homes_model.php',
+    'apps\\models\\Contacts\\Contacts' => $baseDir . '/apps/models/Contacts.php',
     'core\\Authorization\\Authorization' => $baseDir . '/core/Authorization.php',
     'core\\Basecontroller\\Basecontroller' => $baseDir . '/core/Basecontroller.php',
     'core\\Csrf\\Csrf' => $baseDir . '/core/Csrf.php',

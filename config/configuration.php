@@ -30,14 +30,14 @@ define('VERSION', '1.0'); //System version
 
 define('DEFAULT_CONTROLLERS', 'Home');
 
-define('DEFAULT_AUTH', 'Login');
+define('DEFAULT_AUTH', '');
 
 define('DEFAULT_METHOD', 'Index');
 
-define('URL', 'https://pentit.pentmart.com/apps/');
+define('URL', 'http://localhost/app/apps/');
 
 
-define('NOTFOUND', 'https://pentit.pentmart.com/404.asp');
+define('NOTFOUND', 'http://localhost/404.asp');
 
 define('KEY', 'nuue89937793874uh9e7y493774');
 

@@ -1,4 +1,7 @@
 <?php
+
+use core\Router\Router;
+
 include_once '../vendor/autoload.php';
 #TODO
 ini_set('display_errors', 0);
@@ -32,4 +35,3 @@ define('ROOT', dirname(__FILE__));
 $url = isset($_SERVER['PATH_INFO']) ? explode('/', ltrim($_SERVER['PATH_INFO'], '/')) : [];
 
 new Router($url);
-

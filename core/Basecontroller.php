@@ -1,11 +1,9 @@
 <?php
 namespace core\Basecontroller;
 
-use core\Views\Views;
-
 use core\Usersession\Usersession;
-
 use core\Router\Router;
+use core\Views\Views;
 
 abstract class Basecontroller extends Views
 {
@@ -67,7 +65,7 @@ abstract class Basecontroller extends Views
 
             session_destroy();
 
-            // Router::redirect(LOGIN,'login');
+            Router::redirect(URL,'login');
         }
     }
 

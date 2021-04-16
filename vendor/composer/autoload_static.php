@@ -178,7 +178,7 @@ class ComposerStaticInit7e30011705f3ea6963f8394951f60935
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
-        'apps\\models\\Projects\\Homes_Model' => __DIR__ . '/../..' . '/apps/models/Homes_model.php',
+        'apps\\models\\Contacts\\Contacts' => __DIR__ . '/../..' . '/apps/models/Contacts.php',
         'core\\Authorization\\Authorization' => __DIR__ . '/../..' . '/core/Authorization.php',
         'core\\Basecontroller\\Basecontroller' => __DIR__ . '/../..' . '/core/Basecontroller.php',
         'core\\Csrf\\Csrf' => __DIR__ . '/../..' . '/core/Csrf.php',
