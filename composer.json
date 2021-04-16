@@ -1,0 +1,19 @@
+{
+    "require": {
+        "illuminate/database": "^8.37",
+        "illuminate/events": "^8.37",
+        "phpmailer/phpmailer": "^6.4"
+    },
+    "autoload":{
+        "classmap": [
+            "core/",
+            "apps/controllers/",
+            "apps/models/"
+        ],
+        "files": ["config/configuration.php",
+                  "services/Connection.php",
+                  "services/Transport.php",
+                  "services/tables.php"
+                ]
+    }
+}
